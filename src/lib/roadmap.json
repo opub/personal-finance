@@ -1,0 +1,253 @@
+{
+	"steps": [
+		{
+			"id": "start",
+			"title": "Welcome to Your Financial Journey",
+			"question": "Ready to take control of your financial future?",
+			"description": "This roadmap will guide you through essential steps to build a strong financial foundation. We'll cover budgeting, saving, debt management, and investing.\n\nEach step builds upon the previous one, helping you make informed decisions about your money. Remember, everyone's financial journey is unique, and it's okay to move at your own pace.\n\nLet's begin by understanding where you are and where you want to go.",
+			"type": "info",
+			"nextStepId": "create-budget"
+		},
+		{
+			"id": "create-budget",
+			"title": "Create a Budget",
+			"question": "Have you created a detailed budget tracking all your income and expenses?",
+			"description": "Creating a budget is the foundation of financial success. It helps you understand your cash flow, identify spending patterns, and make informed decisions about your money. A good budget should track all sources of income, fixed expenses (like rent and utilities), variable expenses (like groceries and entertainment), and savings goals. Without a budget, it's like trying to navigate without a map – you might know where you want to go, but you'll have no clear path to get there.",
+			"type": "action",
+			"nextStepId": "pay-rent-mortgage"
+		},
+		{
+			"id": "pay-rent-mortgage",
+			"title": "Pay Rent/Mortgage",
+			"question": "Have you allocated funds for your housing expenses this month?",
+			"description": "Housing is typically the largest monthly expense for most people, often consuming 25-35% of their income. This category includes not just rent or mortgage payments, but also property taxes, insurance, utilities, and basic maintenance. Prioritizing these payments is crucial as stable housing is a fundamental need, and falling behind can have serious consequences for your credit and living situation. If housing costs exceed 35% of your income, you might want to consider ways to reduce this expense or increase your income.",
+			"type": "action",
+			"nextStepId": "pay-food"
+		},
+		{
+			"id": "pay-food",
+			"title": "Buy Food/Groceries",
+			"question": "Have you budgeted for and purchased essential food and groceries?",
+			"description": "Food is a basic necessity that should be prioritized after housing. This category includes groceries, basic household supplies, and essential personal care items. While eating out can be convenient, cooking at home is typically much more cost-effective. A well-planned grocery budget often ranges from 10-15% of your income. Consider meal planning, buying in bulk, using coupons, and choosing store brands to optimize this expense. Remember, while you can cut costs here, don't compromise on nutrition – your health is an investment.",
+			"type": "action",
+			"nextStepId": "pay-essential"
+		},
+		{
+			"id": "pay-essential",
+			"title": "Pay Essential Items",
+			"question": "Have you covered all your essential utility bills and insurance payments?",
+			"description": "Essential utilities and insurance are critical for maintaining a safe and stable lifestyle. This includes electricity, water, heating, basic phone service, and essential insurance policies. These services are fundamental to modern living and often can't be easily replaced or gone without. Many utility companies offer budget billing to help even out seasonal variations. Insurance policies (health, auto, etc.) protect you from catastrophic expenses and should never be neglected. If you're struggling with utility bills, many companies offer assistance programs or payment plans - it's better to communicate with them early rather than risk service interruption.",
+			"type": "action",
+			"nextStepId": "pay-income-expenses"
+		},
+		{
+			"id": "pay-income-expenses",
+			"title": "Pay Income Earning Expenses",
+			"question": "Have you covered all expenses necessary to maintain your income?",
+			"description": "These are expenses directly related to your ability to earn income - think of them as investments in your earning potential. This includes transportation to work (car payments, fuel, maintenance, public transit passes), required work clothing, professional licenses, continuing education, or tools needed for your job. Without these, your ability to earn income could be compromised. If you're self-employed, this might include business expenses, software subscriptions, or office supplies. These expenses should be prioritized because they directly support your income stream. Consider if there are ways to optimize these costs, such as carpooling, remote work options, or tax deductions for work-related expenses.",
+			"type": "action",
+			"nextStepId": "pay-non-essential"
+		},
+		{
+			"id": "pay-non-essential",
+			"title": "Pay Non-Essential Bills",
+			"question": "Have you paid your non-essential bills that improve quality of life?",
+			"description": "Non-essential bills include services that enhance your quality of life but aren't strictly necessary for survival or income generation. This typically includes cable TV, streaming services, internet (unless needed for work), gym memberships, and subscription services. While these expenses aren't critical, they should still be paid in full if you choose to maintain them. This is a good category to review regularly for potential cost-cutting - many people find they're paying for services they rarely use. Consider if each subscription provides value worth its cost, and look for opportunities to bundle services or negotiate better rates. Remember, it's okay to have some non-essential expenses if they fit within your budget and bring real value to your life.",
+			"type": "action",
+			"nextStepId": "emergency-fund"
+		},
+		{
+			"id": "emergency-fund",
+			"title": "Build Emergency Fund",
+			"question": "Do you have at least $1000 saved for emergencies?",
+			"description": "An emergency fund is your financial safety net - it's what stands between you and debt when unexpected expenses arise. While the ultimate goal is 3-6 months of expenses, starting with $1000 is a crucial first step. This initial emergency fund can cover many common emergencies like car repairs, minor medical expenses, or urgent home repairs. Without this buffer, you might be forced to rely on credit cards or loans, potentially starting a cycle of debt. Consider this fund as essential as your monthly bills - it's not just savings, it's self-insurance against life's inevitable surprises. Keep this money easily accessible in a separate savings account, but not so accessible that you're tempted to use it for non-emergencies. Remember, an emergency fund isn't an investment - its purpose is security, not growth.",
+			"type": "action",
+			"nextStepId": "employer-retirement"
+		},
+		{
+			"id": "employer-retirement",
+			"title": "Employer Retirement Match",
+			"question": "Does your employer offer a retirement account with matching contributions?",
+			"description": "An employer match on retirement contributions is essentially free money - it's part of your total compensation package that many people leave on the table. For example, if your employer offers to match 50% of your contributions up to 6% of your salary, and you earn $50,000, you could contribute $3,000 and your employer would add $1,500 - that's a 50% immediate return on your investment! This is why capturing any available employer match should be prioritized even before paying off moderate-interest debt. The match is unique because it provides an immediate, guaranteed return that typically far exceeds what you could earn through other investments or save in interest by paying down debt. However, be aware of vesting schedules - these determine how long you must stay with the employer to keep their matching contributions.",
+			"type": "decision",
+			"yesStepId": "contribute-match",
+			"noStepId": "high-interest-debt"
+		},
+		{
+			"id": "contribute-match",
+			"title": "Contribute to Get Full Match",
+			"question": "Are you contributing enough to get your full employer match?",
+			"description": "Your employer match is the highest guaranteed return you'll likely ever get on your money. For example, if your employer matches 100% of your first 3% contributed, that's an immediate 100% return! Even a 50% match is far better than typical investment returns or interest savings. Not contributing enough to get the full match is literally leaving part of your salary unclaimed. Calculate exactly how much you need to contribute each paycheck to get the full match - if it's too much right now, start with what you can and gradually increase it. Remember, this is pre-tax money, so the impact on your take-home pay is less than you might think. For example, a $100 contribution might only reduce your paycheck by $75-85, depending on your tax bracket.",
+			"type": "action",
+			"nextStepId": "high-interest-debt"
+		},
+		{
+			"id": "high-interest-debt",
+			"title": "High Interest Debt",
+			"question": "Do you have any debt with interest rates of 10% or higher?",
+			"description": "High-interest debt is a financial emergency that can quickly spiral out of control due to compound interest working against you. Credit cards often charge 15-25% APR, and some personal loans or payday loans can have even higher rates. At 20% APR, a $5,000 debt will accrue $1,000 in interest in just one year! No reasonable investment can reliably outpace these interest rates, which is why paying off high-interest debt should be prioritized even over building a larger emergency fund. The only exception is maintaining your basic emergency fund and capturing employer matching - these provide unique benefits that justify temporarily carrying even high-interest debt.",
+			"type": "decision",
+			"yesStepId": "evaluate-debt-payoff",
+			"noStepId": "increase-emergency"
+		},
+		{
+			"id": "evaluate-debt-payoff",
+			"title": "Evaluate Debt Payoff Strategy",
+			"question": "Have you chosen a debt payoff strategy (Avalanche or Snowball method)?",
+			"description": "There are two main strategies for paying off debt: The Avalanche method (paying highest interest rate first) saves the most money mathematically, while the Snowball method (paying smallest balance first) provides psychological wins that can help maintain motivation. For example, with the Avalanche method, if you have a $5,000 credit card at 22% APR and a $2,000 card at 15% APR, you'd focus extra payments on the 22% card first. With the Snowball method, you'd pay the $2,000 balance first for a quicker win. The Avalanche method typically saves hundreds or thousands in interest, but the Snowball method might work better if you need the motivation of quick wins. Either way, make minimum payments on all debts and put any extra money toward your target debt. Consider balance transfer options if you qualify for 0% APR offers, but be aware of transfer fees and promotional period end dates.",
+			"type": "action",
+			"nextStepId": "increase-emergency"
+		},
+		{
+			"id": "increase-emergency",
+			"title": "Increase Emergency Fund",
+			"question": "Do you have 3-6 months of expenses saved in your emergency fund?",
+			"description": "While a $1,000 starter emergency fund is good for minor emergencies, a full 3-6 month emergency fund provides true financial security. This larger fund can protect you from major life events like job loss, serious illness, or necessary relocation. Calculate your essential monthly expenses (housing, food, utilities, insurance, minimum debt payments) and multiply by 3-6 depending on your job stability and number of income earners in your household. For example, a single person with $3,000 in monthly expenses should aim for $9,000-18,000 in their emergency fund. This might seem overwhelming, but remember it's a gradual process. Keep this fund in a high-yield savings account separate from your regular checking - you want it to earn some interest while staying easily accessible. Don't invest this money in stocks or other volatile assets - the purpose is security, not growth.",
+			"type": "action",
+			"nextStepId": "moderate-interest-debt"
+		},
+		{
+			"id": "moderate-interest-debt",
+			"title": "Moderate Interest Debt",
+			"question": "Do you have any debt with interest rates between 4-10%?",
+			"description": "Moderate interest debt often includes student loans, car loans, personal loans, or older credit card promotional balances. While less urgent than high-interest debt, these rates are still high enough to warrant attention before moving on to more aggressive investing. The decision to prioritize paying these off versus investing more for retirement isn't always clear-cut - it depends on the exact interest rate, your risk tolerance, and your tax situation. For example, a 6% student loan might be worth paying off early, but a 4% mortgage with tax-deductible interest might not be. Consider your full financial picture: Are you already saving enough for retirement? Do you have other financial goals? Would paying off this debt significantly improve your monthly cash flow or peace of mind?",
+			"type": "decision",
+			"yesStepId": "evaluate-moderate-debt",
+			"noStepId": "roth-vs-traditional"
+		},
+		{
+			"id": "evaluate-moderate-debt",
+			"title": "Evaluate Moderate Debt Strategy",
+			"question": "Have you analyzed whether to prioritize paying off your moderate interest debt?",
+			"description": "When dealing with moderate interest debt, you need to compare potential investment returns against guaranteed interest savings. Historical stock market returns average around 7-10% annually (after inflation), but aren't guaranteed. Paying off a 6% loan gives you a guaranteed 6% return on your money. Consider your risk tolerance and financial goals. For example, if you have a $20,000 car loan at 6% with 4 years remaining, paying an extra $100 monthly would save you about $1,000 in interest and pay off the loan 9 months earlier. Alternatively, that same $100 invested monthly for 4 years at 8% average returns would grow to about $5,800. However, investment returns aren't guaranteed, while debt interest savings are. Some choose a balanced approach - paying some extra on debt while also increasing investments.",
+			"type": "action",
+			"nextStepId": "roth-vs-traditional"
+		},
+		{
+			"id": "roth-vs-traditional",
+			"title": "Evaluate Roth vs Traditional",
+			"question": "Have you evaluated which type of retirement account best suits your situation?",
+			"description": "The choice between Roth and Traditional retirement accounts depends on your current tax bracket versus your expected retirement tax bracket. Traditional contributions give you a tax break now but are taxed in retirement. Roth contributions are taxed now but grow tax-free. For example, if you're in the 22% tax bracket, a $6,000 Traditional IRA contribution would save you $1,320 in taxes this year. The same contribution to a Roth would cost you the full $6,000 now, but all future growth would be tax-free. Generally, choose Traditional if you expect to be in a lower tax bracket in retirement, Roth if you expect to be in a higher bracket. Young professionals often benefit from Roth contributions because they're likely in a lower tax bracket now than they will be later. Consider factors like: Current vs. expected future income, state tax rates, potential future tax law changes, and required minimum distributions (Traditional IRAs require withdrawals starting at age 73, Roth IRAs don't).",
+			"type": "action",
+			"nextStepId": "large-purchases"
+		},
+		{
+			"id": "large-purchases",
+			"title": "Large Required Purchases",
+			"question": "Will you need to make any major purchases or investments in the next 5 years?",
+			"description": "Large upcoming expenses need different saving strategies than long-term investments. This might include a home down payment, car replacement, major home repairs, wedding, or career change expenses. The shorter your timeline, the more conservative your savings vehicle should be. For example, if you're saving for a $40,000 home down payment needed in 2 years, that money should stay in high-yield savings accounts or CDs - the stock market is too volatile for short-term goals. But if you're saving for a child's college in 15 years, you can afford to take more investment risk. Create specific savings goals with timelines and adjust your investment strategy accordingly. Remember to factor in inflation - $10,000 in today's dollars will have less purchasing power in 5 years.",
+			"type": "decision",
+			"yesStepId": "save-large-purchases",
+			"noStepId": "retirement-savings"
+		},
+		{
+			"id": "save-large-purchases",
+			"title": "Save for Large Purchases",
+			"question": "Have you set up dedicated savings for your upcoming major expenses?",
+			"description": "Saving for large purchases requires a different strategy than long-term investing or emergency funds. First, calculate exactly how much you need and when you need it. Then work backward to determine your monthly savings target. For example, if you need $30,000 for a home down payment in 3 years, that's $833 per month (not counting any interest earned). Choose appropriate savings vehicles based on your timeline: Less than 2 years: High-yield savings accounts or money market accounts. 2-5 years: Consider CDs or conservative bond funds, but be aware of penalties for early withdrawal. Create separate accounts for each goal to avoid mixing funds or being tempted to use them for other purposes. Look for ways to reduce the target amount through research, timing (like buying during sales seasons), or adjusting expectations.",
+			"type": "action",
+			"nextStepId": "retirement-savings"
+		},
+		{
+			"id": "retirement-savings",
+			"title": "Retirement Savings Check",
+			"question": "Are you saving at least 15% of your pre-tax income for retirement?",
+			"description": "The 15% guideline is a minimum target for maintaining your lifestyle in retirement. This includes your contributions and any employer match. For example, if you earn $60,000 annually, you should save at least $9,000 per year for retirement. If your employer matches 3% ($1,800), you need to contribute at least $7,200. Start early - someone who saves $500 monthly from age 25-65 with 7% average returns would have about $1.2 million, while starting at 35 would yield only $567,000. If you're starting late, you may need to save more than 15%. Consider using retirement calculators to determine your personal target based on your desired retirement age, expected lifestyle, and current savings. Remember that Social Security typically replaces only about 40% of pre-retirement income for average earners.",
+			"type": "decision",
+			"yesStepId": "hsa-eligible",
+			"noStepId": "employer-401k"
+		},
+		{
+			"id": "employer-401k",
+			"title": "Employer 401(k) Check",
+			"question": "Can you increase your contributions to your employer's retirement plan?",
+			"description": "401(k)s and similar employer plans offer several advantages: High contribution limits ($23,500 in 2025, plus $7,500 catch-up if over 50), potential employer matching, and automatic payroll deductions. These plans make saving easier through dollar-cost averaging and reducing the temptation to spend the money. Calculate how much you can increase your contribution - even 1% more can make a big difference over time. For example, increasing your contribution by $100 monthly over 30 years with 7% returns would add about $117,000 to your retirement savings. Consider increasing your contribution percentage whenever you get a raise - you won't miss money you never had in your paycheck. Most plans offer target-date funds or other professionally managed options if you're unsure about investment choices.",
+			"type": "decision",
+			"yesStepId": "increase-contributions",
+			"noStepId": "self-employed-retirement"
+		},
+		{
+			"id": "increase-contributions",
+			"title": "Increase Retirement Contributions",
+			"question": "Have you set up automatic increases to reach your 15% retirement savings target?",
+			"description": "Gradually increasing your retirement contributions makes the transition more manageable. Many 401(k) plans offer automatic increase features that raise your contribution percentage annually. For example, if you're currently contributing 6%, you might set up 1% annual increases until you reach 15%. Time these increases with expected raises to minimize the impact on your take-home pay. Remember that these contributions reduce your taxable income - a $100 increase in contributions might only reduce your paycheck by $75-85 depending on your tax bracket. If your plan doesn't offer automatic increases, set calendar reminders to review and adjust your contributions regularly. Consider both pre-tax and Roth options based on your tax situation.",
+			"type": "action",
+			"nextStepId": "hsa-eligible"
+		},
+		{
+			"id": "self-employed-retirement",
+			"title": "Self-Employed Retirement",
+			"question": "Have you set up a retirement plan for your self-employed income?",
+			"description": "Self-employed individuals have several retirement plan options, each with different contribution limits and rules. A Solo 401(k) allows contributions as both employer and employee, potentially up to $70,000 in 2025 (including catch-up contributions if over 50). SEP IRAs are simpler but only allow employer contributions up to 25% of compensation. SIMPLE IRAs are good for small businesses with employees, allowing both employer and employee contributions. For example, with $100,000 in net self-employment income, you could contribute up to $25,000 to a SEP IRA, or potentially more to a Solo 401(k) through combined employee and employer contributions. Consider working with a tax professional to optimize your contributions and tax benefits. Remember to factor in self-employment tax deductions and the impact on your taxable income.",
+			"type": "action",
+			"nextStepId": "hsa-eligible"
+		},
+		{
+			"id": "hsa-eligible",
+			"title": "HSA Eligibility",
+			"question": "Do you have a qualifying high-deductible health plan that makes you eligible for an HSA?",
+			"description": "Health Savings Accounts (HSAs) offer unique triple tax advantages: Tax-deductible contributions, tax-free growth, and tax-free withdrawals for qualified medical expenses. For 2025, individuals can contribute up to $4,300 ($8,600 for families), plus $1,000 catch-up if over 55. To be eligible, your health plan must have a deductible of at least $1,650 for individuals ($3,300 for families) in 2025. Unlike FSAs, HSA funds roll over year to year and are portable if you change employers. Many people use HSAs as supplemental retirement accounts - paying current medical expenses out of pocket while investing HSA funds for future healthcare costs. After age 65, you can withdraw HSA funds for non-medical expenses paying only normal income tax, similar to a traditional IRA.",
+			"type": "decision",
+			"yesStepId": "max-hsa",
+			"noStepId": "college-savings"
+		},
+		{
+			"id": "max-hsa",
+			"title": "Maximize HSA",
+			"question": "Are you maximizing your HSA contributions for the year?",
+			"description": "Maximizing HSA contributions should be a high priority due to their unique tax advantages. If your employer offers HSA contributions, ensure you're getting the full amount - this is free money similar to a 401(k) match. Consider increasing your contributions to reach the annual limit. For example, if your employer contributes $500 annually to your individual HSA, you can still contribute up to $3,650 yourself. Many HSAs offer investment options once you maintain a minimum cash balance (often $1,000-2,000). Consider investing HSA funds you won't need for several years - the tax-free growth can be substantial. For example, $3,000 invested annually for 20 years with 7% returns would grow to about $131,000 tax-free for healthcare expenses. Keep good records of medical expenses - you can reimburse yourself tax-free at any time, even years later.",
+			"type": "action",
+			"nextStepId": "college-savings"
+		},
+		{
+			"id": "college-savings",
+			"title": "College Savings",
+			"question": "Do you need to save for future college expenses?",
+			"description": "College costs have historically increased faster than inflation, making early planning crucial. A 4-year public university education might cost $100,000-$200,000 in today's dollars, with private universities often double that. 529 plans offer tax-free growth for qualified education expenses and sometimes state tax deductions for contributions. Start early - saving $200 monthly from birth with 6% returns could grow to about $87,000 by age 18. Consider your goals carefully - you don't need to save for 100% of costs. Many families aim to save about one-third of expected costs, planning to cover the rest through current income, grants, scholarships, and limited student loans. Be careful not to prioritize college savings over your own retirement - remember that students can borrow for college, but you can't borrow for retirement.",
+			"type": "decision",
+			"yesStepId": "evaluate-529",
+			"noStepId": "final-choice"
+		},
+		{
+			"id": "evaluate-529",
+			"title": "Evaluate College Savings Options",
+			"question": "Have you researched and chosen appropriate college savings vehicles?",
+			"description": "529 plans are the most popular college savings option, but they're not the only choice. Compare your state's 529 plan with other states' plans - you're not limited to your own state's plan, though you might lose state tax benefits by choosing another. Consider Coverdell ESAs for more investment flexibility and K-12 expenses, though they have lower contribution limits ($2,000 annually) and income restrictions. UTMA/UGMA accounts offer flexibility for non-education expenses but can impact financial aid eligibility and give the child control at age 18/21. Some families use Roth IRAs as a college savings backup - contributions can be withdrawn penalty-free for any purpose, including education. Consider the impact on financial aid - 529 plans owned by parents have minimal impact on aid eligibility compared to accounts in the student's name.",
+			"type": "action",
+			"nextStepId": "final-choice"
+		},
+		{
+			"id": "final-choice",
+			"title": "Choose Your Path",
+			"question": "Would you like to focus on early retirement?",
+			"description": "Having reached this point, you've built a strong financial foundation and must now choose between different paths based on your personal goals. Early retirement requires aggressive saving and investing - often 40-50% of income or more. This might mean living well below your means now for future freedom. Other valid goals might include starting a business, changing careers, supporting causes you care about, or simply building wealth while maintaining work-life balance. Consider what truly matters to you - financial independence isn't just about retiring early, it's about having options. This choice affects how aggressively you'll save and invest, what risks you're willing to take, and how you'll balance current lifestyle with future goals.",
+			"type": "decision",
+			"yesStepId": "early-retirement",
+			"noStepId": "other-goals"
+		},
+		{
+			"id": "early-retirement",
+			"title": "Early Retirement Focus",
+			"question": "Are you ready to maximize all available retirement savings vehicles?",
+			"description": "Early retirement requires maximizing every tax-advantaged savings opportunity. Beyond maxing out 401(k)s ($23,500 in 2025) and IRAs ($7,000 in 2025), consider mega backdoor Roth contributions if your plan allows after-tax contributions with in-plan Roth conversions. This could allow up to $70,000 total annual 401(k) contributions (including employer match) in 2025. Build a taxable investment account for additional savings, considering tax-efficient fund placement across all accounts. The 4% rule suggests you need 25 times your annual expenses saved to retire - early retirement might require 28-33 times expenses due to the longer time horizon. Consider healthcare costs carefully - you'll need a plan to bridge the gap until Medicare eligibility at 65. Build multiple income streams and consider part-time work or consulting to provide flexibility in early retirement.",
+			"type": "action",
+			"nextStepId": "other-goals"
+		},
+		{
+			"id": "other-goals",
+			"title": "Other Financial Goals",
+			"question": "Have you identified and created plans for your other financial goals?",
+			"description": "Beyond retirement, consider various financial goals and their timelines. Short-term goals (1-3 years) like home improvements or vacations should use high-yield savings accounts or CDs. Medium-term goals (3-10 years) like starting a business or buying a vacation home might use a mix of bonds and conservative stock investments. Long-term goals (10+ years) can use more aggressive stock-based investments. Create specific plans for each goal - how much you need, when you need it, and how you'll save for it. For example, if starting a business is your goal, you might need $50,000 in 5 years. That's $833 monthly at 3% returns in a conservative investment mix. Consider the tax implications of different account types and investment vehicles. Regular review and rebalancing help ensure you're on track while managing risk appropriately for each goal's timeline.",
+			"type": "action",
+			"nextStepId": "wrapup"
+		},
+		{
+			"id": "wrapup",
+			"title": "Your Financial Journey Continues",
+			"question": "Ready to put your plan into action?",
+			"description": "Congratulations on completing the financial roadmap! You now have a better understanding of your financial situation and the steps needed to achieve your goals.\n\nRemember:\n\n• Review and adjust your budget regularly\n• Keep building your emergency fund\n• Stay committed to your debt repayment plan\n• Continue learning about personal finance\n\nThis is just the beginning of your journey. Take it one step at a time, and don't hesitate to seek professional advice when needed.",
+			"type": "info",
+			"next": "start"
+		}
+	]
+}
