@@ -7,7 +7,7 @@
 	$: isStartPage = store.currentStep.id === 'start';
 </script>
 
-<div class="min-h-screen bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800">
+<div class="flex min-h-screen flex-col bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800">
 	<!-- Header -->
 	<header class="border-b border-gray-700 bg-gray-800/50 backdrop-blur-sm">
 		<div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
@@ -48,7 +48,7 @@
 	</header>
 
 	<!-- Main Content -->
-	<main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+	<main class="mx-auto max-w-7xl grow px-4 py-8 sm:px-6 lg:px-8">
 		<RoadmapStep />
 	</main>
 
