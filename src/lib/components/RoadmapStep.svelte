@@ -39,11 +39,11 @@
 				{#if paragraph.includes('•')}
 					<ul class="list-disc space-y-2 pl-6">
 						{#each paragraph.split('\n').filter((line) => line.trim().startsWith('•')) as bullet}
-							<li>{bullet.replace('•', '').trim()}</li>
+							<li>{@html bullet.replace('•', '').trim()}</li>
 						{/each}
 					</ul>
 				{:else}
-					<p>{paragraph}</p>
+					<p>{@html paragraph}</p>
 				{/if}
 			{/each}
 		</div>

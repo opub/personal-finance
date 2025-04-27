@@ -4,7 +4,7 @@
 			"id": "start",
 			"title": "Welcome to Your Financial Journey",
 			"question": "Ready to take control of your financial future?",
-			"description": "This roadmap will guide you through essential steps to build a strong financial foundation. We'll cover budgeting, saving, debt management, and investing.\n\nEach step builds upon the previous one, helping you make informed decisions about your money. Remember, everyone's financial journey is unique, and it's okay to move at your own pace.\n\nLet's begin by understanding where you are and where you want to go.",
+			"description": "This roadmap will guide you through essential steps to build a strong financial foundation. We'll cover budgeting, saving, debt management, and investing.\n\nEach step builds upon the previous one, helping you make informed decisions about your money.  These steps are simplifications of what can be found at <a href=\"https://www.reddit.com/r/personalfinance/wiki/commontopics/\" target=\"_blank\">/r/personalfinance</a>. You should check out that site for more details.\n\nRemember, everyone's financial journey is unique, and it's okay to move at your own pace. Let's begin by understanding where you are and where you want to go.",
 			"type": "info",
 			"nextStepId": "create-budget"
 		},
